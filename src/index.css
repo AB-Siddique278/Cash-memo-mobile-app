@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-bengali: "Noto Sans Bengali", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-memo-primary: #1a5fa8;
+  --color-memo-secondary: #2196a8;
+  --color-memo-light: #e8f4ff;
+  --color-memo-row-even: #f0f7ff;
+  --color-memo-row-border: #b8d4f0;
+}
+
+body {
+  font-family: var(--font-bengali), var(--font-sans);
+  background-color: #f3f4f6;
+  color: #1f2937;
+}
+
+/* Custom scrollbars for items editor */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

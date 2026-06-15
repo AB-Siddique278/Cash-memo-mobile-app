@@ -1,0 +1,6 @@
+{
+  "name": "Cash Memo Mobile App",
+  "description": "A responsive cash memo generation and management app designed for mobile, supporting live data editing, unique memo numbers, and PDF/JPG downloads.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
